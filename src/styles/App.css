@@ -10,12 +10,12 @@
   border-bottom: 1px solid #4698cf;
 }
 
-#marcas h1, #addVehiculo h1{
+#marcas h1, #addVehiculo h1, #demo h1{
   font-size: 20px;
   color: #34495e;
   position: relative;
 }
-#marcas h1::after, #addVehiculo h1::after{
+#marcas h1::after, #addVehiculo h1::after, #demo h1::after{
   content: '';
   border: 1px solid #e67e22;
   width: 10%;
@@ -51,4 +51,15 @@
 .formAddVehiculo h3{
   text-transform: uppercase;
   font-size: 11px;
+}
+#error{
+  color: red;
+  text-align: center;
+}
+#correcto{
+  color: green;
+  text-align: center;
+}
+#contPrincipalVehiculos{
+  padding: 20px 30px 100px;
 }
