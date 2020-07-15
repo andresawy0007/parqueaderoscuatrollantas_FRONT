@@ -1,0 +1,54 @@
+#header{
+  background-color: #3498db;
+  margin-top: 0px;
+  color: #fff;
+  padding: 10px 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  border-bottom: 1px solid #4698cf;
+}
+
+#marcas h1, #addVehiculo h1{
+  font-size: 20px;
+  color: #34495e;
+  position: relative;
+}
+#marcas h1::after, #addVehiculo h1::after{
+  content: '';
+  border: 1px solid #e67e22;
+  width: 10%;
+  position: absolute;
+  bottom: -5px;
+  left: 0px;
+}
+.formAddVehiculo{
+  margin: 10px;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+}
+.formAddVehiculo .formGroup{
+  margin: 15px 0px;
+}
+.formAddVehiculo input, .formAddVehiculo select{
+  padding: 5px 0px;
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+}
+.formAddVehiculo button{
+  background-color: #f1c40f;
+  border: 1px solid #f1c40f;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.formAddVehiculo h3{
+  text-transform: uppercase;
+  font-size: 11px;
+}
